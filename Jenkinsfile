@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-              sh "ls -a"
+              echo "from bransh 1"
             }
         }
     }
